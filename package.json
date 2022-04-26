@@ -1,0 +1,20 @@
+{
+  "name": "visual_partner",
+  "version": "1.0.0",
+  "description": "Create a project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ingrzs/visual_partner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ingrzs/visual_partner/issues"
+  },
+  "homepage": "https://github.com/Ingrzs/visual_partner#readme"
+}
