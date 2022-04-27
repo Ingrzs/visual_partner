@@ -23,4 +23,4 @@ const assignFizzBuzzTrick = function(explorer){
 };
 
 const explorersInNodeAndFizzBuzzTrick = explorersbyMission.map((explorer) => assignFizzBuzzTrick(explorer));
-console.log(explorersInNodeAndFizzBuzzTrick)
+console.log(explorersInNodeAndFizzBuzzTrick);

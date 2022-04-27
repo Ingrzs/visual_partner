@@ -4,7 +4,9 @@
   "description": "Create a project",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "linter": "eslint .",
+    "linter-fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
