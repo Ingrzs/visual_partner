@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Ingrzs/visual_partner#readme",
   "devDependencies": {
+    "eslint": "^8.14.0",
     "jest": "^28.0.1"
   }
 }
