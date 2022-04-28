@@ -1,11 +1,11 @@
 const Reader = require("./lib/utils/Reader"); 
-//const ExplorerService = require ("./lib/services/ExplorerService")
+const ExplorerService = require("./lib/services/ExplorerService")
 
 const explorers = Reader.readJsonFile("explorers.json"); // esto regresa la lista de explorers del archivo
 //console.log(explorers)
 
-const explorersbyMission = explorers.filter((explorer) => explorer.mission == "node");
-//console.log(explorersbyMission.length)
+const explorersInNode = explorers.filterByMission((explorer) => explorer.mission == "node");
+console.log(explorersInNode.length)
 
 
 const usernamesInNode = explorersbyMission.map((explorer) => explorer.Username == "node");
@@ -23,4 +23,4 @@ const assignFizzBuzzTrick = function(explorer){
 };
 
 const explorersInNodeAndFizzBuzzTrick = explorersbyMission.map((explorer) => assignFizzBuzzTrick(explorer));
-console.log(explorersInNodeAndFizzBuzzTrick);
+//console.log(explorersInNodeAndFizzBuzzTrick);
