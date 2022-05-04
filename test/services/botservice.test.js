@@ -1,4 +1,4 @@
-const Botservice = require ("./../../lib/services/botservice")
+const Botservice = require ("./../../lib/services/botservice");
 
 describe("Pruebas unitarias BotFizbuzz",()=>{
     test ("test para validar ",()=>{
@@ -20,4 +20,4 @@ describe("Pruebas unitarias BotFizbuzz",()=>{
     
         expect(filterExplorer[0]).toBe("Ramiro");
     });
-})
+});
